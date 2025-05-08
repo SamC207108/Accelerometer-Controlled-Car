@@ -34,16 +34,6 @@ Processing IDE (Java Mode) receives acceleration data, converts it to motor comm
 
 Car Arduino receives a string like 120,-75, splits it, and drives the motors accordingly.
 
-📁 File Structure
-bash
-Copy
-Edit
-├── Arduino
-│   ├── car_controller.ino        # Receives Bluetooth signals, drives motors
-│   └── mpu_reader.ino            # Reads MPU6050, sends data to PC
-├── Processing
-│   └── control_interface.pde     # Parses sensor data, sends motor commands
-├── README.md
 ⚙️ Installation & Setup
 Arduino Side
 Upload mpu_reader.ino to the MPU6050 Arduino.
